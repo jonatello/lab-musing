@@ -1,0 +1,8 @@
+33   */6  * * *   librenms    /usr/local/www/librenms/cronic /usr/local/www/librenms/discovery-wrapper.py 1
+*/5  *    * * *   librenms    /usr/local/www/librenms/discovery.php -h new >> /dev/null 2>&1
+*/5  *    * * *   librenms    /usr/local/www/librenms/cronic /usr/local/www/librenms/poller-wrapper.py 16
+15   0    * * *   librenms    /usr/local/www/librenms/daily.sh >> /dev/null 2>&1
+*    *    * * *   librenms    /usr/local/www/librenms/alerts.php >> /dev/null 2>&1
+*/5  *    * * *   librenms    /usr/local/www/librenms/poll-billing.php >> /dev/null 2>&1
+01   *    * * *   librenms    /usr/local/www/librenms/billing-calculate.php >> /dev/null 2>&1
+*/5 * * * * librenms /usr/local/www/librenms/check-services.php >> /dev/null 2>&1
