@@ -20,7 +20,7 @@
         nokeepalive ssl-unclean-shutdown \
         downgrade-1.0 force-response-1.0
 
-	CustomLog "/var/log/apache/httpd-ssl_request.log" \
+	CustomLog "/var/log/httpd-ssl_request.log" \
           "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
 
 	<Directory "/usr/local/www/apache24/data/">
