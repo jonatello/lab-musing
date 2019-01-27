@@ -31,7 +31,7 @@
                         Require all granted
         </Directory>
        
-    ErrorLog "/var/log/apache/example.com.ssl-error.log"
-    CustomLog "/var/log/apache/example.com.ssl-access_log" combined
+    ErrorLog "/var/log/example.com.ssl-error.log"
+    CustomLog "/var/log/example.com.ssl-access_log" combined
 
 </VirtualHost>
