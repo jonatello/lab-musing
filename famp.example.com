@@ -4,9 +4,9 @@ VirtualHost *:443>
                 DocumentRoot "/usr/local/www/apache24/data/"
 	SSLEngine on
 
-	SSLCertificateFile "/usr/local/etc/letsencrypt/live/www.example.com/cert.pem"
-	SSLCertificateKeyFile "/usr/local/etc/letsencrypt/live/www.example.com/privkey.pem"
-	SSLCertificateChainFile "/usr/local/etc/letsencrypt/live/www.example.com/fullchain.pem"
+	SSLCertificateFile "/usr/local/etc/letsencrypt/live/example.com/cert.pem"
+	SSLCertificateKeyFile "/usr/local/etc/letsencrypt/live/example.com/privkey.pem"
+	SSLCertificateChainFile "/usr/local/etc/letsencrypt/live/example.com/fullchain.pem"
 
 <FilesMatch "\.(cgi|shtml|phtml|php)$">
     SSLOptions +StdEnvVars
