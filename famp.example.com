@@ -1,4 +1,4 @@
-VirtualHost *:443>
+<VirtualHost *:443>
     ServerName example.com
 	ServerAlias www.example.com
                 DocumentRoot "/usr/local/www/apache24/data/"
